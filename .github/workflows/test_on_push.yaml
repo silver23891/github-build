@@ -2,10 +2,8 @@ name: Run tests
 
 on:
   push:
-    tags:
-      - '!refs/tags/*'
-    branches:
-      - '*'
+    branches-ignore:
+      - 'main'
 
 jobs:
   run_test:
