@@ -1,4 +1,4 @@
-name: Run tests
+name: Run build
 
 on:
   push:
@@ -35,4 +35,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          labels: latest
