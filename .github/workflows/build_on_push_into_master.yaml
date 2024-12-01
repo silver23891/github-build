@@ -35,4 +35,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: latest
-          labels: github-build
+          labels: silver2389/github-build
